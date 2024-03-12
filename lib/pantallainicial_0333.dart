@@ -8,7 +8,7 @@ class PantallaIncial_0333 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Pantalla Inicial celiceo0333"),
+        title: Text("card container celiceo0333"),
         backgroundColor: Colors.black87,
       ),
       body: Center(
@@ -23,9 +23,9 @@ class PantallaIncial_0333 extends StatelessWidget {
             ),
             ElevatedButton(
               onPressed: () {
-                Navigator.pushNamed(context, "/pantalla1_0333");
+                Navigator.pushNamed(context, "/pantalla2_0333");
               },
-              child: Text("Mover a pantalla1"),
+              child: Text("Mover a pantalla2"),
             )
           ], //mecos widget
         ),

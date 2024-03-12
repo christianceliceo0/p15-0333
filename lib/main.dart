@@ -16,7 +16,7 @@ class MiApp0333 extends StatelessWidget {
       routes: {
         "/": (context) => PantallaIncial_0333(),
         "/pantalla1_0333": (context) => Pantalla1_0333(),
-        "/Pantalla2_0333": (context) => Pantalla2_0333(),
+        "/pantalla2_0333": (context) => Pantalla2_0333(),
       }, //rutas de pagina
     );
   } //fin de widget
