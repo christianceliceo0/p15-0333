@@ -19,13 +19,22 @@ class PantallaIncial_0333 extends StatelessWidget {
               onPressed: () {
                 Navigator.pushNamed(context, "/pantalla1_0333");
               },
+              style: ElevatedButton.styleFrom(primary: Color(0xff4c00fe)),
               child: Text("Mover a pantalla1"),
             ),
             ElevatedButton(
               onPressed: () {
                 Navigator.pushNamed(context, "/pantalla2_0333");
               },
+              style: ElevatedButton.styleFrom(primary: Color(0xff862ff6)),
               child: Text("Mover a pantalla2"),
+            ),
+            ElevatedButton(
+              onPressed: () {
+                Navigator.pushNamed(context, "/pantalla3_0333");
+              },
+              style: ElevatedButton.styleFrom(primary: Color(0xff7d5df1)),
+              child: Text("Mover a pantalla3"),
             )
           ], //mecos widget
         ),

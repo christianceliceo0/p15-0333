@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:celiceo0333/pantalla2_0333.dart';
 import 'package:celiceo0333/pantalla1_0333.dart';
 import 'package:celiceo0333/pantallainicial_0333.dart';
+import 'package:celiceo0333/pantalla3_0333.dart';
 
 void main() => runApp(MiApp0333());
 
@@ -17,6 +18,7 @@ class MiApp0333 extends StatelessWidget {
         "/": (context) => PantallaIncial_0333(),
         "/pantalla1_0333": (context) => Pantalla1_0333(),
         "/pantalla2_0333": (context) => Pantalla2_0333(),
+        "/pantalla3_0333": (context) => Pantalla3_0333(),
       }, //rutas de pagina
     );
   } //fin de widget
